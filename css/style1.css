@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-image: linear-gradient(to bottom, lavender, orange); 
+    background-repeat: repeat-x;
+    background-position: 200%;
+    background-color: #b07d6286;
+     
+
+     }
+
+
+nav {
+    background-color: #81a5f186;
+    display: flex; 
+    
+}
+
+
+
+.nav__list {
+     width: 100%;
+     height: 250px;
+     color: white;
+     padding: 10px;
+     display: inline-flex;
+     list-style: none;
+     min-width: 200%;
+     text-align: center;
+} 
+
+.nav__link {
+    font-size: 40px;
+    width: 100%;
+    height: 250px;
+    background-color: #b07d6286;
+    grid-column-gap: 3rem;
+    flex-direction: row;
+    justify-content: space-between;
+ }
+ main {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    flex-wrap: wrap;
+}
+
+section {
+    background-color: #b07d6277;
+    margin: 10px 5px;
+    border: 1rem;
+    flex-wrap: wrap; 
+
+}
+
+/*NOVEDADES*/ 
+
+h2 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;  
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 70px;
+    background-color: #b07d6246;
+    justify-content: center;
+    margin: 10px 5px;
+    border: 1rem;
+    
+    
+}
+
+.p__novedades {
+    margin: 1rem;
+    border: 0.75rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+ }
+ /*imagen nuevos productos*/
+
+
+ .new__container {
+    display: flex;
+    content: auto;
+    margin: 10px 5px;
+    border: 1rem;
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+
+ }
+
+.new__items{
+    margin: 1rem;
+    border: 5rem;
+    
+}
+h3 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: stretch;  
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    background-color: #b07d627c;
+    justify-content: center;
+    margin: 10px 5px;
+    border: 1rem;
+}
+
+.video__tutorial { 
+    margin: 1rem;
+    border: 10px;
+    padding: 0.5rem;
+    height: 10rem;
+}
+/*FOOTER*/
+footer {
+    background-color: rgba(230, 230, 250, 0.733); 
+   padding: 1rem;
+   gap: 2rem;
+   margin: 0;
+   content: 1rem;
+   border: 0;
+
+ }
+
+

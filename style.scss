@@ -1,0 +1,23 @@
+$font-family: Arial  serif;
+$titulo-productos: grey;
+$Font-size: 200px;
+
+@mixin productos {
+    $tamaño-productos : 100px 400px
+    $color-fondo:  grey
+}
+
+
+body {
+    font-family: $font-family;
+    
+   
+
+h1 {
+    font-size: $Font-size;
+    color: $titulo-productos; 
+    }
+
+.productos {
+    @include productos(lavender grey);
+    }
